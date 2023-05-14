@@ -1,0 +1,41 @@
+
+
+.h1r {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #740000;
+}
+
+form label {
+    color: #740000;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+form select,
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 98%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #740000;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #000000;
+}
